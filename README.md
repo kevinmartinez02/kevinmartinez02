@@ -54,22 +54,31 @@
 
 ###
 
-<h4 align="left">Contact</h4>
+
 
 ###
 
-<div align="left">
-  <a href="https://www.linkedin.com/in/kevin-martinez-50a592330/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-  <a href="kemart1230@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
-  </a>
-</div>
+<h3 align="center">GitHub Stats</h3>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=kevinmartinez02&locale=en&mode=daily&theme=github_dark&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+  <img src="https://streak-stats.demolab.com?user=kevinmartinez02&locale=en&mode=daily&theme=github_dark&hide_border=true&border_radius=10" height="165" alt="streak graph" />
 </div>
 
+<br>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kevinmartinez02&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" height="165" alt="top languages" />
+</div>
+
+<h3 align="center">Contact Me</h3>
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/kevin-martinez-50a592330/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Kevin%20Mart%C3%ADnez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
+  </a>
+  <a href="mailto:kemart1230@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-kemart1230%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge" />
+  </a>
+</div>
 
 ###
