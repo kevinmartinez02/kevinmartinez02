@@ -32,17 +32,7 @@
 
 ###
 
-<h3 align="center">GitHub Stats</h3>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=kevinmartinez02&locale=en&mode=daily&theme=github_dark&hide_border=true&border_radius=10" height="165" alt="streak graph" />
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kevinmartinez02&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" height="165" alt="top languages" />
-</div>
 
 <h3 align="center">Contact Me</h3>
 
