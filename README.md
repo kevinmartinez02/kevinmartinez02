@@ -28,12 +28,6 @@
 
 ###
 
-
-
-###
-
-
-
 <h3 align="center">Contact Me</h3>
 
 <div align="center">
