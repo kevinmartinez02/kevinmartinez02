@@ -14,7 +14,11 @@
 
 <br clear="both">
 
-<p align="left">I am a Systems Engineering student with a strong focus on full-stack web development and backend API design. Throughout my academic journey, I have developed solid experience building complete web solutions using technologies such as NestJS, Django, Next.js, and Node.js, applying client-server architecture and modern development practices.<br><br>My main interest lies in designing scalable and maintainable systems, where I can apply principles of clean architecture, modularity, and software security. I have worked on projects that involve REST API development, relational database modeling with PostgreSQL, and integration with external services, including AI-based solutions. I also have experience using Docker to containerize applications and improve deployment environments.<br><br>I consider myself a proactive and self-driven learner, constantly exploring new technologies and improving my technical skills. Currently, I am expanding my knowledge in areas such as software architecture, DevOps practices, and artificial intelligence integration, aiming to build efficient and innovative solutions that solve real-world problems.<br><br>I am motivated to grow as a professional developer, contribute to meaningful projects, and be part of teams where I can continue learning while delivering high-quality software.</p>
+<p align="left">I am a Full-Stack Developer focused on building scalable, secure, and maintainable web applications. I have experience developing backend services and modern user interfaces using technologies such as NestJS, Django, Next.js, Node.js, PostgreSQL, and Docker.
+
+My work includes REST API development, database design, authentication, third-party integrations, and client-server architecture. I enjoy transforming ideas and business requirements into efficient and well-structured software solutions.
+
+I am a proactive developer who is constantly improving my skills in software architecture, DevOps, cloud technologies, and artificial intelligence integration. My goal is to contribute to meaningful projects and deliver software that provides real value to users and businesses.</p>
 
 
 
