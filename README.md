@@ -8,6 +8,12 @@
 
 ###
 
+<div align="center">
+  <img src="output.gif" alt="Animated terminal intro" />
+</div>
+
+###
+
 <h4 align="left">About Me</h4>
 
 ###
