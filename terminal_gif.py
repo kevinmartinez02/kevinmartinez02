@@ -477,7 +477,7 @@ put(f"{PROMPT}{GREEN}# Profile loaded successfully{RESET}", 25)
 animate_avatar(PROFILE_HOLD_SECONDS)
 
 # Scene 3: clear the terminal, log out, and terminate the session.
-type_at(f"{PROMPT}clear", 25)
+type_at(f"{PROMPT}clear", 26)
 t.clone_frame(8)
 reset_screen("SESSION")
 type_at(f"{PROMPT}logout", 1)
