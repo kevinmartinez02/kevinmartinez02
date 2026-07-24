@@ -20,11 +20,11 @@
 
 <br clear="both">
 
-<p align="left">I am a Full-Stack Developer focused on building scalable, secure, and maintainable web applications. I have experience developing backend services and modern user interfaces using technologies such as NestJS, Django, Next.js, Node.js, PostgreSQL, and Docker.
+<p align="left">I am a Full-Stack Developer focused on building scalable, secure, and maintainable web applications. I transform ideas and business needs into clear, effective, and well-structured software solutions.
 
-My work includes REST API development, database design, authentication, third-party integrations, and client-server architecture. I enjoy transforming ideas and business requirements into efficient and well-structured software solutions.
+I enjoy solving real-world problems, creating intuitive user experiences, and delivering reliable products that provide meaningful value to people and businesses.
 
-I am a proactive developer who is constantly improving my skills in software architecture, DevOps, cloud technologies, and artificial intelligence integration. My goal is to contribute to meaningful projects and deliver software that provides real value to users and businesses.</p>
+I am a proactive professional who is continuously growing in software architecture, cloud technologies, DevOps, and applied artificial intelligence. My goal is to contribute to meaningful, high-impact projects where thoughtful engineering makes a tangible difference.</p>
 
 
 

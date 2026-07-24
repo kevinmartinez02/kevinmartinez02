@@ -3,11 +3,12 @@ name: Generate Terminal GIF
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * 0" # weekly, Sundays 06:00 UTC
+    - cron: "0 6 * * *" # daily at 06:00 UTC
   push:
     branches: [main]
     paths:
       - terminal_gif.py
+      - assets/**
       - .github/workflows/terminal-gif.yml
 
 permissions:
@@ -31,6 +32,8 @@ jobs:
 
       - name: Generate GIF
         run: python terminal_gif.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and push GIF
         run: |
