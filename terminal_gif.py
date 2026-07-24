@@ -12,7 +12,7 @@ t = gifos.Terminal(750, 500, 15, 15)
 t.toggle_show_cursor(True)
 
 t.gen_typing_text(f"{PROMPT}whoami", 1)
-t.gen_text(f"{CYAN}Kevin Alfredo Martínez{RESET} — Full Stack Developer", 2)
+t.gen_text(f"{CYAN}Kevin Alfredo Martínez{RESET} - Full Stack Developer", 2)
 t.clone_frame(15)
 
 t.gen_typing_text(f"{PROMPT}cat about.txt", 4)
