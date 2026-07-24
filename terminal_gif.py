@@ -64,7 +64,6 @@ def calculate_user_rating(stats: dict[str, str | int | float]) -> str:
         + (1 if int(stats["commits"]) >= 50 else 0)
         + (1 if int(stats["public_repos"]) >= 10 else 0)
         + (1 if int(stats["stars"]) >= 10 else 0)
-        + (1 if int(stats["pull_requests"]) >= 10 else 0)
     )
     if score >= 8:
         return "A+"
@@ -87,9 +86,6 @@ def fetch_github_stats() -> dict[str, str | int | float]:
         "followers": 0,
         "stars": 0,
         "commits": 58,
-        "pull_requests": 0,
-        "merged_pull_requests": 0,
-        "merged_percentage": 0.0,
         "top_languages": "TypeScript, Python, HTML, PHP",
         "contributions": "1,421",
         "contribution_year": current_year,
@@ -145,14 +141,6 @@ def fetch_github_stats() -> dict[str, str | int | float]:
                     f"committer-date:{current_year}-01-01..{current_year}-12-31"
                 ),
             ),
-            "pull_requests": (
-                "https://api.github.com/search/issues",
-                f"type:pr author:{GITHUB_USER}",
-            ),
-            "merged_pull_requests": (
-                "https://api.github.com/search/issues",
-                f"type:pr author:{GITHUB_USER} is:merged",
-            ),
         }
         for key, (url, query) in search_requests.items():
             response = requests.get(
@@ -163,14 +151,6 @@ def fetch_github_stats() -> dict[str, str | int | float]:
             )
             response.raise_for_status()
             stats[key] = response.json().get("total_count", stats[key])
-
-        pull_requests = int(stats["pull_requests"])
-        merged_pull_requests = int(stats["merged_pull_requests"])
-        stats["merged_percentage"] = (
-            round(merged_pull_requests / pull_requests * 100, 1)
-            if pull_requests
-            else 0.0
-        )
 
         contribution_response = requests.get(
             f"https://github.com/users/{GITHUB_USER}/contributions",
@@ -456,14 +436,9 @@ put(
     34,
 )
 animate_avatar(0.5)
-put(f"{CYAN}Total PRs:{RESET} {github['pull_requests']}", 20, 34)
+put(f"{CYAN}Public Repositories:{RESET} {github['public_repos']}", 20, 34)
 animate_avatar(0.5)
-put(
-    f"{CYAN}Merged PRs:{RESET} {github['merged_pull_requests']} "
-    f"({github['merged_percentage']}%)",
-    21,
-    34,
-)
+put(f"{CYAN}Followers:{RESET} {github['followers']}", 21, 34)
 animate_avatar(0.5)
 put(
     f"{CYAN}Contributions ({github['contribution_year']}):{RESET} "
