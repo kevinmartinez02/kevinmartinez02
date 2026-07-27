@@ -50,3 +50,7 @@ I am a proactive professional who is continuously growing in software architectu
 </div>
 
 ###
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=kevinmartinez02&locale=en&mode=daily&theme=github_dark&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+</div>
