@@ -24,14 +24,6 @@
 
 ###
 
-<h3 align="center">Live Language Pulse</h3>
-
-<div align="center">
-  <img src="language-stats.gif" alt="Animated top languages pulse circuit" width="100%" />
-</div>
-
-###
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kevinmartinez02/kevinmartinez02/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kevinmartinez02/kevinmartinez02/output/pacman-contribution-graph.svg">
