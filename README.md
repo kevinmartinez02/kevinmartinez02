@@ -20,7 +20,11 @@
 
 <br clear="both">
 
-<p align="left">I’m a Full-Stack Developer from Guatemala who turns complex ideas into secure, scalable, and intuitive web products. I enjoy solving real-world problems and growing through software architecture, cloud, DevOps, and applied AI.</p>
+<p align="left">I am a Full-Stack Developer focused on building scalable, secure, and maintainable web applications. I transform ideas and business needs into clear, effective, and well-structured software solutions.
+
+  I enjoy solving real-world problems, creating intuitive user experiences, and delivering reliable products that provide meaningful value to people and businesses.
+
+I am a proactive professional who is continuously growing in software architecture, cloud technologies, DevOps, and applied artificial intelligence. My goal is to contribute to meaningful, high-impact projects where thoughtful engineering makes a tangible difference.</p>
 
 ###
 
